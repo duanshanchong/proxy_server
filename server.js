@@ -33,7 +33,6 @@ proxy.on('end', function (ctx) {
         ctx.response.body = question.filter(ctx.response.body);
 
     }
-    // console.log('end: ' + ctx.response.body);
 });
 
 // 监听端口
